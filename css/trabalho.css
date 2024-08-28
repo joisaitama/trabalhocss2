@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Caslon Display', serif;
+    background-color: #f7f7f7;
+    color: rgb(3, 3, 3);
+}
+
+.navbar-brand {
+    font-family: 'Keania One', cursive;
+    font-size: 44px;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Libre Caslon Display', serif;
+} 
+
+.book-section {
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 250px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.signup {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.intro {
+    text-align: center;
+    padding: 40px 20px; 
+    background-color: #ffffff; 
+    border-bottom: 1px solid #cecccc; 
+    border-top: 1px solid #cecccc; 
+}
+
+.intro h1 {
+    margin: 0;
+    font-size: 52px;
+    color: #9F0707; 
+    font-weight: bold; 
+}
+
+.intro p {
+    font-size: 18px; 
+    margin-top: 10px; 
+    color: #3a2424; 
+}
+
+.content {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 40px 20px; 
+}
+
+.description {
+    flex: 2; 
+    margin-right: 20px;
+}
+
+.description h2 {
+    font-size: 28px; 
+    color: #9F0707; 
+}
+
+.description p {
+    font-size: 16px; 
+    line-height: 1.5; 
+}
+
+.quote {
+    flex: 1; 
+    background-color: #f9f9f9; 
+    border-left: 4px solid #9F0707; 
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.quote img {
+    width: 100%; 
+    max-width: 150px; 
+    margin-bottom: 15px; 
+}
+
+.quote blockquote {
+    font-style: italic; 
+    font-size: 18px; 
+    color: #960000; 
+}
+
+.red-clouds img {
+    width: 100%; 
+    max-height: 180px; 
+    object-fit: cover; 
+    margin-top: 20px; 
+}
+
+
+.footer {
+    background-color: #e9e4e452;
+    color: #3a2424;
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+    border-top: 3px solid rgba(136, 129, 129, 0.685);
+}
+
+.footer-socials {
+    display: flex;
+    gap: 20px;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Keania One', cursive;
+    font-size: 16px;
+}
+
+.social-item img {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 768px) {
+    .book-section .card {
+        margin-bottom: 20px;
+    }
+}
